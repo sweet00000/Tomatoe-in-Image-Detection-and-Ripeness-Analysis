@@ -3,11 +3,8 @@ import os
 import numpy as np
 from matplotlib import pyplot as plt
 import pandas as pd
-#x = input("Enter file path:")
-#y = input("Sort by 'area', 'x', 'y', 'R':")
-#z = input("Name of csv:")
 os.chdir("C:/users/Sweet/source/repos/assets")
-img = cv2.imread("C:/users/Sweet/source/repos/assets/0test.jpg", 1)
+img = cv2.imread("0test.jpg", 1)
 D = np.zeros(8)
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 mask = cv2.inRange(hsv, (0,0,85), (50,255,255))
