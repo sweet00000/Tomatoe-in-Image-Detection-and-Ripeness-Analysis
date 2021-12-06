@@ -1,7 +1,6 @@
 import cv2
 import os
 import numpy as np
-from matplotlib import pyplot as plt
 import pandas as pd
 os.chdir("C:/users/Sweet/source/repos/assets")
 img = cv2.imread("0test.jpg", 1)
